@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNxwQ-HcqYWYmiAhAfrCni-OWbht4XRpIrHQ&s"/>
+<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>        <img src="https://www.eniac.com/wp-content/uploads/2024/08/MicrosoftAzure.png"/>
 
 </p>
 
