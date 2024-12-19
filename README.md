@@ -21,7 +21,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows 10 (21H2)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
-
+- Prepare Domain Controller with Windows Server 2022 OS and a Windows 10 Client.
 - Install Active Directory and Promote to Domain Controller  
 - Create Domain Admin User and Organizational Units (OUs)  
 - Join Client-1 to the Domain  
@@ -29,48 +29,74 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-### Part 1: Install Active Directory
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=dlEwCL-hk9M">
-    <img src="https://img.youtube.com/vi/dlEwCL-hk9M/0.jpg" alt="Install Active Directory and Promote to Domain Controller"/>
-  </a>
-</p>
-*Click the image or  <a href="https://www.youtube.com/watch?v=dlEwCL-hk9M">here</a> to watch a video demo.*
+### Part 1: Prepare Environment
+NOTE: Always make sure that a public ip is assigned upon deployment of VM environments on the cloud. By making sure that they are in the same virtual network and subnet, both machines will talk to each other.
+
+https://github.com/user-attachments/assets/c0d4a0a3-6d0a-42f5-8c2e-258341f1e03f
+
+
+
+### Part 2: Install Active Directory
+
+
+
+
+
+
+
+
+https://github.com/user-attachments/assets/fce7e66f-7493-4af1-bcd9-6b249349d008
+
+
+
+
+
+
+
+
 
 ---
 
-### Part 2: Create a Domain Admin User and Organizational Units (OUs)
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=MLY4QmCw8rU">
-    <img src="https://img.youtube.com/vi/MLY4QmCw8rU/0.jpg" alt="Create a Domain Admin User and Organizational Units OUs"/>
-  </a>
-</p>
-*Click the image or  <a href="https://www.youtube.com/watch?v=MLY4QmCw8rU">here</a> to watch a video demo.*
+### Part 3: Create a Domain Admin User and Organizational Units (OUs)
+
+
+
+
+
+
+https://github.com/user-attachments/assets/da2bcfd7-d153-4fdb-8189-b6426c07309d
+
+
+
+
+
+
+
   
 
 ---
 
-### Part 3: Join Client-1 to the Domain
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=0I8dOcsaoBM">
-    <img src="https://img.youtube.com/vi/0I8dOcsaoBM/0.jpg" alt="Join Client 1 to the Domain"/>
-  </a>
-</p>
- *Click the image or  <a href="https://www.youtube.com/watch?v=0I8dOcsaoBM">here</a> to watch a video demo.*
+### Part 4: Join Client-1 to the Domain
+
+
+
+https://github.com/user-attachments/assets/f23ad40a-f43c-429c-85cb-cc8ca2e57c9a
+
+
 
 ---
 
-### Part 4: Create Additional Users and Verify Access
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=Rsxgx2KKQYY">
-    <img src="https://img.youtube.com/vi/Rsxgx2KKQYY/0.jpg" alt="Create Additional Users and Verify Access"/>
-  </a>
-</p> 
-*Click the image or  <a href="https://www.youtube.com/watch?v=Rsxgx2KKQYY">here</a> to watch a video demo.*
+### Part 5: Create Additional Users and Verify Access
+
+
+
+https://github.com/user-attachments/assets/291f2909-60ee-4c66-b6a6-e27a2024f273
+
+
 
 
 ---
 
 ### Conclusion
 
-In this tutorial, we successfully deployed and configured an on-premises Active Directory environment within Azure. By following these steps, we were able to install Active Directory, promote it to a Domain Controller, create Domain Admin users, organize the environment with Organizational Units (OUs), and join clients to the domain. The process ensures that Active Directory is fully functional in an Azure environment, enabling secure user management and network resources.
+In this project, we successfully deployed and configured an on-premises Active Directory environment within Azure. By following these steps, we were able to install Active Directory, promote it to a Domain Controller, create Domain Admin users, organize the environment with Organizational Units (OUs), and join clients to the domain. The process ensures that Active Directory is fully functional in an Azure environment, enabling secure user management and network resources.
